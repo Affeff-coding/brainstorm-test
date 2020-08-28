@@ -1,0 +1,42 @@
+header{
+    background-image: url(slide.jpg);
+    height:400px;
+    width:100%;}
+
+ul,h1{list-style: none;}    
+a{
+color: snow;
+text-decoration: none;
+}
+h5{
+color: rgb(97, 86, 71); font-weight:bolder}
+h6{
+    color: rgba(238, 92, 8, 0.918);
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+.navbar{height:120px; margin:0px; padding:0px;; background: rgba(0, 0, 0, 0.8)}
+.main-nav{margin:10px; padding:10px; width: 90%;}
+.logo{width: 150px;}
+.logo a{width: 150px;}
+.logo a img{display: block; width: 100px; height: 100px; ;}
+.show-xs{padding:20px;}
+
+#backG{
+    background-image: url(bg-content.jpg);
+    background-repeat: repeat-x repeat-y;
+}
+
+@media screen and (min-width: 980px){
+
+    .main-nav{display: flex;align-items:flex-end; justify-content:space-between;}
+    .show-xs{display:none;}
+
+
+    }
+@media screen and (max-width: 980px){
+    .show-md{display:none;}
+    .navbar{height: 400px;}
+    
+}
+
